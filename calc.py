@@ -77,7 +77,7 @@ for i in range(0, 100):
     CHANGE.append(changei)
 # ------------------------------
 
-# Main function which prints the solutions to levels 1-50 of Calculator: The Game.
+# Main function which prints the solutions to levels 1-80 of Calculator: The Game.
 def main():
     # Format: Level, getPath(OperationsTuple, Start, Goal, Moves)
     print(CONST_SOL.format(1, getPath((ADD[1],),
