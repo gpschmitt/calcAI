@@ -78,7 +78,7 @@ for i in range(OPERAND_RANGE):
     CHANGE.append(changei)
 # ------------------------------
 
-# Main function which prints the solutions to levels 1-80 of Calculator: The Game.
+# Main function which prints the solutions to levels 1-100 of Calculator: The Game.
 def main():
     # Format: Level,   OperationsTuple,                                                    Start,  Goal, Moves)
     printSolution(1,   (ADD[1],),                                                              0,     2, 2)
